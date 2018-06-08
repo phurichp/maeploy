@@ -21,6 +21,14 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+                background-image: url('../image/background-triangle.jpg');
+            }
+
+            .content {
+
+                background-color: white;
+                padding: 150px 150px 150px 150px;
+
             }
 
             .full-height {
