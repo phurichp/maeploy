@@ -51,6 +51,13 @@
                 font-size: 84px;
             }
 
+            @font-face {
+                font-family: 'Custom-font';
+                src : url('../font/EkkamaiStandard-Light.ttf');
+
+
+            }
+
             .links > span a  {
                 color: #636b6f;
                 padding: 0 25px;
@@ -59,6 +66,7 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                font-family: Custom-font;
             }
 
             .m-b-md {
@@ -103,10 +111,10 @@
 
                 <p style="text-align: center; padding-bottom: 20px; font-size: 18px;"> Unlock your creativity</p>
                 <div class="links">
-                    <span><a href="https://laravel.com/docs">Our store</a></span>
-                    <span><a href="https://laracasts.com">How it works</a></span>
-                    <span><a href="https://laravel-news.com">Our partners</a></span>
-                    <span><a href="https://forge.laravel.com">Developer Story</a></span>
+                    <span><a href="https://laravel.com/docs">ค้นหาสไตล์</a></span>
+                    <span><a href="https://laracasts.com">เกี่ยวกับเรา</a></span>
+                    <span><a href="https://laravel-news.com">ติดต่อ</a></span>
+                    <span><a href="https://forge.laravel.com">ทีมงานโปรแกรมเมอร์</a></span>
                     <span><a href="https://github.com/phurichp/maeploy">GitHub</a></span>
                 </div>
             </div>
