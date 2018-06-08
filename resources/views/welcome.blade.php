@@ -9,7 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="{{ asset('css/font-awesome/fontawesome-all.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/font-awesome/fontawesome-all.css') }}"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
         <!-- Styles -->
         <style>
@@ -97,10 +98,10 @@
 
             <div class="content">
                 <div class="title m-b-md" style="color: palevioletred;">
-                    Maepl<i class="fas fa-tape fa-xs"></i>y
+                    Mae ~ pl <i class="fas fa-tape fa-xs"></i>y
                 </div>
 
-                <p style="text-align: center; padding-bottom: 20px; font-size: 18px;"> The center of online fashion</p>
+                <p style="text-align: center; padding-bottom: 20px; font-size: 18px;"> Unlock your creativity</p>
                 <div class="links">
                     <span><a href="https://laravel.com/docs">Our store</a></span>
                     <span><a href="https://laracasts.com">How it works</a></span>
@@ -109,6 +110,15 @@
                     <span><a href="https://github.com/phurichp/maeploy">GitHub</a></span>
                 </div>
             </div>
+
+                <p style="text-align: center; padding-bottom: 20px; font-size: 12px; position: absolute; bottom: 0;"> &#169; Maeploy Coperation - Pre-alpha release </p>
+
         </div>
     </body>
+
+    {{--<footer>--}}
+
+        {{--<p style="text-align: center; padding-bottom: 20px; font-size: 12px;"> &#169; Maeploy Coperation - Pre-alpha release </p>--}}
+
+    {{--</footer>--}}
 </html>
