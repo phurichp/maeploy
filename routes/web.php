@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/kuaylek', function() {
+
+    return view('sample.sample');
+
+});
