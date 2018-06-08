@@ -98,7 +98,7 @@
 
             <div class="content">
                 <div class="title m-b-md" style="color: palevioletred;">
-                    Mae pl<i class="fas fa-tape fa-xs"></i>y
+                    Mae Pl<i class="fas fa-tape fa-xs"></i>y
                 </div>
 
                 <p style="text-align: center; padding-bottom: 20px; font-size: 18px;"> Unlock your creativity</p>
