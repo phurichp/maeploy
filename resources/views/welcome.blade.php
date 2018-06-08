@@ -113,8 +113,8 @@
                 <div class="links">
                     <span><a href="https://laravel.com/docs">ค้นหาสไตล์</a></span>
                     <span><a href="https://laracasts.com">เกี่ยวกับเรา</a></span>
-                    <span><a href="https://laravel-news.com">ติดต่อ</a></span>
-                    <span><a href="https://forge.laravel.com">ทีมงานโปรแกรมเมอร์</a></span>
+                    <span><a href="https://laravel-news.com">ผู้พัฒนา</a></span>
+                    <span><a href="https://forge.laravel.com">ร่วมงาน</a></span>
                     <span><a href="https://github.com/phurichp/maeploy">GitHub</a></span>
                 </div>
             </div>
