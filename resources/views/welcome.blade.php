@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{{ asset('css/font-awesome/fontawesome-all.css') }}">
 
         <!-- Styles -->
         <style>
@@ -49,7 +50,7 @@
                 font-size: 84px;
             }
 
-            .links > a {
+            .links > span a  {
                 color: #636b6f;
                 padding: 0 25px;
                 font-size: 12px;
@@ -62,6 +63,23 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            @media screen and (max-width: 768px) {
+
+                .links > span {
+
+                    display: block;
+
+                }
+
+                .content div.title {
+
+                    font-size : 56px;
+
+                }
+
+            }
+
         </style>
     </head>
     <body>
@@ -78,18 +96,17 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    BoatKuayLek
+                <div class="title m-b-md" style="color: palevioletred;">
+                    Maepl<i class="fas fa-tape fa-xs"></i>y
                 </div>
 
-                <p style="text-align: center; padding-bottom: 20px"> จ่ายกู <b>20</b> ดอลล่าห์ด้วยนะควย</p>
-
+                <p style="text-align: center; padding-bottom: 20px; font-size: 18px;"> The center of online fashion</p>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <span><a href="https://laravel.com/docs">Our store</a></span>
+                    <span><a href="https://laracasts.com">How it works</a></span>
+                    <span><a href="https://laravel-news.com">Our partners</a></span>
+                    <span><a href="https://forge.laravel.com">Developer Story</a></span>
+                    <span><a href="https://github.com/phurichp/maeploy">GitHub</a></span>
                 </div>
             </div>
         </div>
